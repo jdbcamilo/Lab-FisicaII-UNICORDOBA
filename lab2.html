@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 2 - LABORATORIOS DE FÍSICA II</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header>
+        <h1 class="animate-title">LABORATORIOS DE FÍSICA II</h1>
+        <p class="animate-subtitle">Grupo conformado por Juan Camilo Diaz, Jesus Manuel Arteaga, Jose Alejandro Pantoja y Sebastian Pretel</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="lab1.html">Laboratorio 1</a>
+        <a href="lab2.html" class="active">Laboratorio 2</a>
+        <a href="lab3.html">Laboratorio 3</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Laboratorio de Electrostática: Observaciones y Resultados</h2>
+            <h3>Introducción</h3>
+            <p>Buen día. En la segunda parte del laboratorio, exploraremos el comportamiento de los cuerpos cargados y sus interacciones eléctricas. Utilizaremos diversas varillas y materiales para observar fenómenos como la atracción y repulsión electrostática, así como la influencia de cargas en distintos objetos. Este estudio es fundamental para entender los principios de la electrostática y cómo se manifiestan en el mundo físico.</p>
+            <h3>Objetivos</h3>
+            <ol>
+                <li>Comprender las interacciones electrostáticas: Analizar cómo las cargas eléctricas influyen en la atracción y repulsión de cuerpos.</li>
+                <li>Investigar el efecto de diferentes materiales: Comparar las propiedades de carga de distintos materiales como el polipropileno, acrílico, acetato y policarbonato.</li>
+                <li>Observar la influencia de la carga en la balanza eléctrica: Determinar cómo la carga de un objeto puede afectar el equilibrio de una balanza eléctrica y los efectos de la carga en la atracción o repulsión de otros cuerpos.</li>
+                <li>Realizar experimentos de descarga y recarga: Evaluar cómo los cuerpos cargados pueden perder o ganar carga mediante contacto o fricción, y las consecuencias de estas acciones en su comportamiento electrostático.</li>
+            </ol>
+            <h3>Evidencias</h3>
+            <div class="image-gallery">
+                <img src="evidencias/LAB2/1.jpeg" alt="Imagen 1" class="zoomable">
+                <img src="evidencias/LAB2/2.jpeg" alt="Imagen 2" class="zoomable">
+            </div>
+            <div class="video-gallery">
+                <video controls class="zoomable">
+                    <source src="evidencias/LAB2/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls class="zoomable">
+                    <source src="evidencias/LAB2/2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls class="zoomable">
+                    <source src="evidencias/LAB2/3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls class="zoomable">
+                    <source src="evidencias/LAB2/4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls class="zoomable">
+                    <source src="evidencias/LAB2/5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h3>Resultados</h3>
+            <iframe src="https://www.youtube.com/embed/1VOfib3RitQ" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <!-- Modal for Zoom -->
+    <div id="zoom-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="zoomed-image">
+        <video class="modal-content" id="zoomed-video" controls></video>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/zoom.js"></script>
+</body>
+</html>
